@@ -1,5 +1,5 @@
 //
-//  ECViewController.h
+//  ChooserViewController.h
 //  Educrest
 //
 //  Created by jingwen wang on 7/13/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ECViewController : UIViewController
+@interface ChooserViewController : UIViewController
 
 @end

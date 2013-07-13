@@ -1,26 +1,244 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cSi-vH-AIH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Chooser View Controller-->
+        <scene sceneID="v4o-tp-V6l">
+            <objects>
+                <viewController id="JCd-XA-oNK" customClass="ChooserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CEn-gb-27l">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RkW-Hm-miK">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="224" id="78L-tq-FTx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="push" identifier="ToSort" id="3D3-bd-KZZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHp-Pc-jAN">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Insertion">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchView:" destination="2" eventType="touchUpInside" id="OqG-62-FDJ"/>
+                                    <segue destination="2" kind="push" identifier="ToSort" id="C8c-ux-qVq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNn-Gz-gup">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Merge">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchView:" destination="2" eventType="touchUpInside" id="Eal-nk-DfH"/>
+                                    <segue destination="2" kind="push" identifier="ToSort" id="mM3-Tb-4FK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Q5-tx-7kY">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Quick">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="push" identifier="ToSort" id="DxL-pe-ZeJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RkW-Hm-miK" firstAttribute="centerX" secondItem="CEn-gb-27l" secondAttribute="centerX" type="default" id="0bW-a0-SlC"/>
+                            <constraint firstItem="MHp-Pc-jAN" firstAttribute="baseline" secondItem="jNn-Gz-gup" secondAttribute="baseline" type="default" id="1fM-zF-ZXO"/>
+                            <constraint firstItem="6Q5-tx-7kY" firstAttribute="top" secondItem="CEn-gb-27l" secondAttribute="top" constant="209" id="1xA-74-HyX"/>
+                            <constraint firstItem="6Q5-tx-7kY" firstAttribute="baseline" secondItem="MHp-Pc-jAN" secondAttribute="baseline" type="default" id="29E-nb-0po"/>
+                            <constraint firstItem="RkW-Hm-miK" firstAttribute="top" secondItem="CEn-gb-27l" secondAttribute="top" constant="96" id="Nes-0p-Q4T"/>
+                            <constraint firstAttribute="trailing" secondItem="jNn-Gz-gup" secondAttribute="trailing" constant="21" id="VPx-qO-LL7"/>
+                            <constraint firstItem="MHp-Pc-jAN" firstAttribute="leading" secondItem="CEn-gb-27l" secondAttribute="leading" constant="114" id="YD8-x0-SYZ"/>
+                            <constraint firstItem="6Q5-tx-7kY" firstAttribute="leading" secondItem="CEn-gb-27l" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="df3-9A-YJh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jRN-PG-zUi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QiW-hl-HOp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-293" y="-338"/>
+        </scene>
+        <!--Table View Controller - Root View Controller-->
+        <scene sceneID="uaj-bC-0Xm">
+            <objects>
+                <tableViewController id="fQv-uO-sUz" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8Xg-B9-cDQ">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="roh-6t-8UQ">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="4W4-Vw-CO3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IyE-gJ-Juq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-274" y="363"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LBU-Je-S3z">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="cSi-vH-AIH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PlB-6V-4LE">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JCd-XA-oNK" kind="relationship" relationship="rootViewController" id="AQc-Bc-VZU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJr-ma-jvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-842" y="-333"/>
+        </scene>
+        <!--Algorithm View Controller-->
         <scene sceneID="5">
             <objects>
-                <viewController id="2" customClass="ECViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="AlgorithmViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5R-pE-yIw">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="311" id="BP8-5f-F5s"/>
+                                    <constraint firstAttribute="height" constant="246" id="O4Z-Pk-Fjf"/>
+                                </constraints>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqZ-Hb-Msb">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWI-rI-ldh">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Insertion">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchView:" destination="2" eventType="touchUpInside" id="Nt0-mf-COu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBo-Bs-nPY">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Merge">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchView:" destination="2" eventType="touchUpInside" id="qM1-KM-QLu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ct8-ef-oTH">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Quick">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchView:" destination="2" eventType="touchUpInside" id="3rB-PN-QBS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ct8-ef-oTH" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="14" id="4S9-67-qg1"/>
+                            <constraint firstItem="LqZ-Hb-Msb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="A5K-OW-JPm"/>
+                            <constraint firstItem="LqZ-Hb-Msb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Ay1-Ey-gfM"/>
+                            <constraint firstItem="Ct8-ef-oTH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="180" id="FO3-K6-4i4"/>
+                            <constraint firstItem="WWI-rI-ldh" firstAttribute="baseline" secondItem="Ct8-ef-oTH" secondAttribute="baseline" type="default" id="gKh-xY-EL2"/>
+                            <constraint firstItem="WWI-rI-ldh" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="108" id="i7r-tP-Cto"/>
+                            <constraint firstItem="Z5R-pE-yIw" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="4" id="m6z-bj-0nZ"/>
+                            <constraint firstAttribute="trailing" secondItem="GBo-Bs-nPY" secondAttribute="trailing" constant="27" id="mzY-VN-iKJ"/>
+                            <constraint firstItem="GBo-Bs-nPY" firstAttribute="baseline" secondItem="WWI-rI-ldh" secondAttribute="baseline" type="default" id="sHR-DN-vI2"/>
+                            <constraint firstItem="Z5R-pE-yIw" firstAttribute="top" secondItem="3" secondAttribute="top" constant="254" id="uor-R1-F6A"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4Sy-Es-yDA"/>
+                    <connections>
+                        <outlet property="myWebView" destination="Z5R-pE-yIw" id="gqr-fE-mHj"/>
+                        <outlet property="titleLabel" destination="LqZ-Hb-Msb" id="i01-Q1-sgZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="254" y="-356"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="AlgorithmViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AlgorithmViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="switchView:"/>
+                <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ChooserViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChooserViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPressed:"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="3D3-bd-KZZ"/>
+    </inferredMetricsTieBreakers>
 </document>
