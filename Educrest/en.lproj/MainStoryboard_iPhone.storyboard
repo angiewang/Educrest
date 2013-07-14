@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2809" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cSi-vH-AIH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cSi-vH-AIH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1884"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Chooser View Controller-->
@@ -12,12 +12,12 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="educrestlogo.png" id="L5y-Vz-PaB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="educrestlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="L5y-Vz-PaB">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="11u-bv-Uho"/>
                                 </constraints>
                             </imageView>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="yhY-SG-9vs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhY-SG-9vs">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="Xdl-cR-yjZ"/>
                                 </constraints>
@@ -30,7 +30,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="cUD-wj-GNz">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUD-wj-GNz">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="QsB-5j-537"/>
                                 </constraints>
@@ -46,7 +46,7 @@
                                     <segue destination="9JV-0O-DYP" kind="push" id="kIU-XM-DV0"/>
                                 </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="JvT-np-yRG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvT-np-yRG">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Settings">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,7 +56,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="a01-ee-4oo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a01-ee-4oo">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="About Educrest">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -98,16 +98,16 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Choose a concept to learn." textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="qsR-nO-9oE">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Choose a concept to learn." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsR-nO-9oE">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="4qU-nD-pGL"/>
                                     <constraint firstAttribute="width" constant="243" id="qmk-un-t08"/>
                                 </constraints>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="oQh-cB-OHT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQh-cB-OHT">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="194" id="5rX-Hj-6Mt"/>
                                 </constraints>
@@ -120,7 +120,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="Mn9-s3-XgW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mn9-s3-XgW">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Recursion">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -130,7 +130,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="Lxl-Ye-r6w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxl-Ye-r6w">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Data structures">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -140,7 +140,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="WIK-65-Wrf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIK-65-Wrf">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Sorting">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -153,7 +153,7 @@
                                     <segue destination="ww0-ZK-C45" kind="push" id="yGU-rf-iZY"/>
                                 </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="4fx-G2-uLd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fx-G2-uLd">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Searching">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -213,16 +213,16 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Choose a sorting algorithm" textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="P5J-Ig-DRl">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Choose a sorting algorithm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5J-Ig-DRl">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="4Af-HT-xbH"/>
                                     <constraint firstAttribute="width" constant="246" id="eXF-c5-j8U"/>
                                 </constraints>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="3Yg-LC-UOU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yg-LC-UOU">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="289" id="l9C-QR-BTZ"/>
                                 </constraints>
@@ -238,7 +238,7 @@
                                     <segue destination="Wci-O9-wOH" kind="push" identifier="" id="XvX-Yd-lRO"/>
                                 </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="JYA-za-Hce">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYA-za-Hce">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Selection">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -248,7 +248,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="KQR-jf-hIW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQR-jf-hIW">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Insertion">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -258,7 +258,10 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="pZX-iW-uf2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZX-iW-uf2">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="289" id="jCc-er-Pv8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Merge">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -267,8 +270,11 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bKq-rI-ble" kind="push" id="jvw-9c-KJi"/>
+                                </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="bI1-7Z-g0Y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI1-7Z-g0Y">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Quick">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -278,7 +284,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" hasAttributedTitle="NO" lineBreakMode="middleTruncation" id="UsL-R9-PwD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsL-R9-PwD">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Heap">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -291,25 +297,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pZX-iW-uf2" firstAttribute="centerX" secondItem="TwL-Rh-uCE" secondAttribute="centerX" type="default" id="DF5-BT-Ccj"/>
                             <constraint firstItem="KQR-jf-hIW" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Guj-v6-cWM"/>
                             <constraint firstItem="KQR-jf-hIW" firstAttribute="trailing" secondItem="JYA-za-Hce" secondAttribute="trailing" type="default" id="LlB-y8-Byq"/>
                             <constraint firstItem="JYA-za-Hce" firstAttribute="top" secondItem="3Yg-LC-UOU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="N9X-xW-8Ci"/>
                             <constraint firstAttribute="bottom" secondItem="bI1-7Z-g0Y" secondAttribute="bottom" constant="93" id="OZ0-9e-IEj"/>
-                            <constraint firstItem="pZX-iW-uf2" firstAttribute="trailing" secondItem="KQR-jf-hIW" secondAttribute="trailing" type="default" id="Q3t-u9-YEd"/>
+                            <constraint firstItem="pZX-iW-uf2" firstAttribute="centerX" secondItem="P5J-Ig-DRl" secondAttribute="centerX" type="default" id="PPE-Bn-Whk"/>
                             <constraint firstItem="JYA-za-Hce" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Thx-I8-LR7"/>
                             <constraint firstItem="pZX-iW-uf2" firstAttribute="top" secondItem="KQR-jf-hIW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="UjL-fE-84k"/>
                             <constraint firstItem="UsL-R9-PwD" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WDl-FH-kJr"/>
                             <constraint firstItem="KQR-jf-hIW" firstAttribute="top" secondItem="JYA-za-Hce" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="XoJ-VM-VL0"/>
                             <constraint firstItem="JYA-za-Hce" firstAttribute="trailing" secondItem="3Yg-LC-UOU" secondAttribute="trailing" type="default" id="YiQ-gx-ZqR"/>
-                            <constraint firstItem="P5J-Ig-DRl" firstAttribute="centerX" secondItem="TwL-Rh-uCE" secondAttribute="centerX" type="default" id="ebv-bH-nkD"/>
-                            <constraint firstItem="pZX-iW-uf2" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="ey3-8i-Ox5"/>
                             <constraint firstItem="bI1-7Z-g0Y" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="i3q-eh-oDQ"/>
-                            <constraint firstItem="bI1-7Z-g0Y" firstAttribute="trailing" secondItem="pZX-iW-uf2" secondAttribute="trailing" type="default" id="kdK-q0-bmr"/>
                             <constraint firstItem="3Yg-LC-UOU" firstAttribute="top" secondItem="P5J-Ig-DRl" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lpi-dC-bSx"/>
                             <constraint firstAttribute="bottom" secondItem="UsL-R9-PwD" secondAttribute="bottom" constant="39" id="m0H-sK-Gwx"/>
                             <constraint firstItem="UsL-R9-PwD" firstAttribute="trailing" secondItem="bI1-7Z-g0Y" secondAttribute="trailing" type="default" id="n5V-oJ-JPk"/>
                             <constraint firstItem="3Yg-LC-UOU" firstAttribute="leading" secondItem="TwL-Rh-uCE" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="sSJ-vC-Pkx"/>
                             <constraint firstItem="P5J-Ig-DRl" firstAttribute="top" secondItem="TwL-Rh-uCE" secondAttribute="top" constant="13" id="tBV-ip-GNd"/>
+                            <constraint firstItem="KQR-jf-hIW" firstAttribute="trailing" secondItem="bI1-7Z-g0Y" secondAttribute="trailing" type="default" id="thO-KH-jTs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l18-kf-6gN"/>
@@ -326,44 +331,44 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="DUt-n0-YoK">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DUt-n0-YoK">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Wwe-Wd-g1M"/>
                                     <constraint firstAttribute="height" constant="180" id="iet-0Z-h0n"/>
                                 </constraints>
                             </webView>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Bubble Sort" textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="pF3-lw-PZc">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bubble Sort" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pF3-lw-PZc">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="A7a-q1-nOQ"/>
                                     <constraint firstAttribute="width" constant="101" id="dRh-si-f6d"/>
                                 </constraints>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <webView translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="KVQ-y4-nvS">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVQ-y4-nvS">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="144" id="Feq-aH-2zr"/>
                                     <constraint firstAttribute="width" constant="297" id="vV5-Lg-S1t"/>
                                 </constraints>
                             </webView>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Label" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="WHR-vZ-il1">
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3c-7k-uGc">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="KVQ-y4-nvS" firstAttribute="leading" secondItem="4l2-vl-ioL" secondAttribute="leading" constant="11" id="0de-j6-0GF"/>
                             <constraint firstItem="KVQ-y4-nvS" firstAttribute="top" secondItem="4l2-vl-ioL" secondAttribute="top" constant="60" id="AP2-SS-qMT"/>
+                            <constraint firstItem="d3c-7k-uGc" firstAttribute="centerX" secondItem="KVQ-y4-nvS" secondAttribute="centerX" type="default" id="O4L-IN-heg"/>
                             <constraint firstItem="KVQ-y4-nvS" firstAttribute="centerX" secondItem="pF3-lw-PZc" secondAttribute="centerX" type="default" id="Svm-tw-reO"/>
+                            <constraint firstAttribute="bottom" secondItem="d3c-7k-uGc" secondAttribute="bottom" constant="58" id="aC5-pM-f6y"/>
                             <constraint firstItem="pF3-lw-PZc" firstAttribute="top" secondItem="4l2-vl-ioL" secondAttribute="top" constant="20" symbolic="YES" type="default" id="bIr-CA-hF7"/>
                             <constraint firstItem="DUt-n0-YoK" firstAttribute="leading" secondItem="4l2-vl-ioL" secondAttribute="leading" constant="393" id="bby-wV-J3u"/>
-                            <constraint firstAttribute="bottom" secondItem="WHR-vZ-il1" secondAttribute="bottom" constant="127" id="lL6-xd-jqo"/>
-                            <constraint firstItem="WHR-vZ-il1" firstAttribute="leading" secondItem="4l2-vl-ioL" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oX3-Wz-gDb"/>
                             <constraint firstItem="DUt-n0-YoK" firstAttribute="top" secondItem="4l2-vl-ioL" secondAttribute="top" constant="68" id="uuw-TC-xJ1"/>
                         </constraints>
                     </view>
@@ -371,40 +376,58 @@
                     <connections>
                         <outlet property="bubblesort" destination="KVQ-y4-nvS" id="2hA-NE-h3G"/>
                         <outlet property="myWebView" destination="KVQ-y4-nvS" id="F2x-uO-H9s"/>
-                        <outlet property="subLabel" destination="WHR-vZ-il1" id="Bgo-j6-vRR"/>
+                        <outlet property="subLabel" destination="d3c-7k-uGc" id="xtK-z6-kjH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIi-Tn-dKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-842" y="391"/>
+            <point key="canvasLocation" x="-882" y="381"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="kZF-cR-Yf5">
+        <!--Merge Sort View Controller-->
+        <scene sceneID="yDj-rh-txl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QnO-bD-FbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="4Zn-7c-qUS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4lC-7d-1BQ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <viewController id="bKq-rI-ble" customClass="MergeSortViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pZj-n1-gJg">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Merge Sort" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gr-rk-W4E">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1pw-25-GJ3">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PZe-Ef-NXp"/>
+                                    <constraint firstAttribute="width" constant="240" id="sMK-uG-xCf"/>
+                                </constraints>
+                            </webView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgR-QC-zuT">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OgR-QC-zuT" firstAttribute="leading" secondItem="pZj-n1-gJg" secondAttribute="leading" constant="64" id="9Dq-PM-jaC"/>
+                            <constraint firstItem="OgR-QC-zuT" firstAttribute="top" secondItem="pZj-n1-gJg" secondAttribute="top" constant="138" id="C3V-mO-1ry"/>
+                            <constraint firstAttribute="bottom" secondItem="1pw-25-GJ3" secondAttribute="bottom" constant="42" id="FUj-9f-GeN"/>
+                            <constraint firstItem="1pw-25-GJ3" firstAttribute="leading" secondItem="pZj-n1-gJg" secondAttribute="leading" constant="46" id="Mh0-dq-fn7"/>
+                            <constraint firstItem="6gr-rk-W4E" firstAttribute="top" secondItem="pZj-n1-gJg" secondAttribute="top" constant="55" id="N0w-wN-wGv"/>
+                            <constraint firstItem="1pw-25-GJ3" firstAttribute="centerX" secondItem="6gr-rk-W4E" secondAttribute="centerX" type="default" id="RC7-es-2JX"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="tvb-eo-jFC"/>
+                    <connections>
+                        <outlet property="myWebView" destination="1pw-25-GJ3" id="hi4-sE-YJs"/>
+                        <outlet property="subLabel" destination="OgR-QC-zuT" id="O0F-tY-Ry8"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fy3-3L-oUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-374" y="396"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="TSe-i6-j1O">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D6j-Iz-Agt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="fbF-1I-Bpp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="auL-bc-97a">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="89" y="407"/>
+            <point key="canvasLocation" x="512" y="250"/>
         </scene>
         <!--Algorithm View Controller-->
         <scene sceneID="5">
@@ -414,36 +437,36 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="Z5R-pE-yIw">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5R-pE-yIw">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="186" id="VfN-8T-rc3"/>
                                 </constraints>
                             </webView>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Label" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="LqZ-Hb-Msb">
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqZ-Hb-Msb">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Description" textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="7Po-y5-dYF">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Po-y5-dYF">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="219" id="ENm-ns-M8d"/>
                                     <constraint firstAttribute="height" constant="93" id="Ly9-UE-lDs"/>
                                 </constraints>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Choose a different sort to learn about!" textAlignment="center" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="CeE-B4-mmM">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Choose a different sort to learn about!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeE-B4-mmM">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="Hrt-mS-ozH"/>
                                     <constraint firstAttribute="width" constant="305" id="JK1-o0-xs2"/>
                                 </constraints>
-                                <nil key="highlightedColor"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ct8-ef-oTH">
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ct8-ef-oTH">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quick">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -456,7 +479,7 @@
                                     <action selector="switchView:" destination="2" eventType="touchUpInside" id="3rB-PN-QBS"/>
                                 </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WWI-rI-ldh">
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWI-rI-ldh">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Insertion">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -469,7 +492,7 @@
                                     <action selector="switchView:" destination="2" eventType="touchUpInside" id="Nt0-mf-COu"/>
                                 </connections>
                             </button>
-                            <button translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GBo-Bs-nPY">
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBo-Bs-nPY">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Merge">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -537,6 +560,14 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ChooserViewController.h"/>
             <relationships>
                 <relationship kind="action" name="buttonPressed:"/>
+            </relationships>
+        </class>
+        <class className="MergeSortViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MergeSortViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mergesort" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="subLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
