@@ -222,7 +222,7 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yg-LC-UOU" colorLabel="IBBuiltInLabel-Red">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yg-LC-UOU">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="289" id="6ny-6Q-WC1"/>
                                 </constraints>
@@ -280,9 +280,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="wrt-cQ-BPA" kind="push" id="FVc-rt-n4v"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsL-R9-PwD">
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
@@ -326,55 +323,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jgJ-gG-iCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="507" y="-333"/>
-        </scene>
-        <!--Quick Sort View Controller-->
-        <scene sceneID="V7e-TG-w4c">
-            <objects>
-                <viewController id="wrt-cQ-BPA" customClass="QuickSortViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hxZ-G4-V9t">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vq1-kE-L3f">
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="182" id="UBF-VA-FLD"/>
-                                    <constraint firstAttribute="width" constant="293" type="user" id="q8u-Ao-sLy"/>
-                                </constraints>
-                            </webView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quick Sort" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXl-se-nAH">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="95" id="hy7-Xy-gHQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLm-i8-6e0">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="vq1-kE-L3f" firstAttribute="top" secondItem="hxZ-G4-V9t" secondAttribute="top" constant="92" id="1sd-YP-q1B"/>
-                            <constraint firstItem="QLm-i8-6e0" firstAttribute="centerX" secondItem="hxZ-G4-V9t" secondAttribute="centerX" type="default" id="505-kS-dtw"/>
-                            <constraint firstAttribute="bottom" secondItem="QLm-i8-6e0" secondAttribute="bottom" constant="93" id="UJw-aB-wYd"/>
-                            <constraint firstItem="QLm-i8-6e0" firstAttribute="centerX" secondItem="vq1-kE-L3f" secondAttribute="centerX" type="default" id="ZTL-7x-DWC"/>
-                            <constraint firstItem="gXl-se-nAH" firstAttribute="top" secondItem="hxZ-G4-V9t" secondAttribute="top" constant="30" id="gZS-g8-vh8"/>
-                            <constraint firstItem="gXl-se-nAH" firstAttribute="leading" secondItem="hxZ-G4-V9t" secondAttribute="leading" constant="122" id="rFm-dh-P2n"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="f3z-T0-zkj"/>
-                    <connections>
-                        <outlet property="myWebView" destination="vq1-kE-L3f" id="pIt-3R-Bvh"/>
-                        <outlet property="subLabel" destination="QLm-i8-6e0" id="HeJ-ty-Qfm"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qHG-IV-kpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1160" y="-316"/>
         </scene>
         <!--Bubble Sort View Controller - BubbleSortViewController-->
         <scene sceneID="12N-eA-Nyx">
@@ -451,7 +399,7 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqG-5I-Cd4">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="183" id="njD-fS-ahB"/>
+                                    <constraint firstAttribute="height" constant="151" type="user" id="Wfz-KK-d91"/>
                                     <constraint firstAttribute="width" constant="293" type="user" id="uKm-Wh-ADg"/>
                                 </constraints>
                             </webView>
@@ -688,14 +636,6 @@
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="QuickSortViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QuickSortViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
-                <relationship kind="outlet" name="quicksort" candidateClass="UIWebView"/>
-                <relationship kind="outlet" name="subLabel" candidateClass="UILabel"/>
-            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

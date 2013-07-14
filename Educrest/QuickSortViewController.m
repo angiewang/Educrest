@@ -45,7 +45,7 @@
     
     
     //   _titleLabel.text = text;
-    _subLabel.text = @"Quicksort: the fastest of all sorting algorithms. \n It reorganizes the array around a pivot,\n then recursively sorts both sides of the pivot.";
+    _subLabel.text = @"Quicksort:\nthe fastest of all sorting algorithms. \n It reorganizes the array around a pivot,\n then recursively sorts both sides\nof the pivot.";
     _subLabel.lineBreakMode = UILineBreakModeWordWrap;
     _subLabel.numberOfLines = 0;
     [_subLabel setFont: [UIFont fontWithName: @"Helvetica Neue Light" size: 36.0]];
