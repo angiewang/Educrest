@@ -30,6 +30,8 @@
 		1542E40F1791DD2000C489F6 /* insertionsort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1542E40E1791DD2000C489F6 /* insertionsort.gif */; };
 		1542E4111791DD3100C489F6 /* mergesort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1542E4101791DD3100C489F6 /* mergesort.gif */; };
 		7F7980F61792B51A0059BFD4 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7980F51792B51A0059BFD4 /* QuizViewController.m */; };
+		7F7980F81792F0270059BFD4 /* correct.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F7980F71792F0270059BFD4 /* correct.jpeg */; };
+		7F7980FA1792F0C20059BFD4 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7980F91792F0C20059BFD4 /* incorrect.png */; };
 		7FA38AD5179260B9004F109A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FA38AD4179260B9004F109A /* Default-568h@2x.png */; };
 		7FA38AD817927308004F109A /* MergeSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA38AD717927308004F109A /* MergeSortViewController.m */; };
 		7FA38ADB179278A9004F109A /* QuickSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA38ADA179278A9004F109A /* QuickSortViewController.m */; };
@@ -123,6 +125,8 @@
 		1542E4101791DD3100C489F6 /* mergesort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mergesort.gif; sourceTree = "<group>"; };
 		7F7980F41792B51A0059BFD4 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizViewController.h; path = ../QuizViewController.h; sourceTree = "<group>"; };
 		7F7980F51792B51A0059BFD4 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizViewController.m; path = ../QuizViewController.m; sourceTree = "<group>"; };
+		7F7980F71792F0270059BFD4 /* correct.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correct.jpeg; sourceTree = "<group>"; };
+		7F7980F91792F0C20059BFD4 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		7FA38AD4179260B9004F109A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7FA38AD617927308004F109A /* MergeSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSortViewController.h; path = ../MergeSortViewController.h; sourceTree = "<group>"; };
 		7FA38AD717927308004F109A /* MergeSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MergeSortViewController.m; path = ../MergeSortViewController.m; sourceTree = "<group>"; };
@@ -295,6 +299,8 @@
 		1542E3E81791CFC800C489F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F7980F91792F0C20059BFD4 /* incorrect.png */,
+				7F7980F71792F0270059BFD4 /* correct.jpeg */,
 				151F700817928A8300631E84 /* selectionsort.gif */,
 				7FA38ADF17928089004F109A /* heapsort.gif */,
 				FD342C541792304200EAAC49 /* Default.png */,
@@ -379,6 +385,8 @@
 				7FA38AE017928089004F109A /* heapsort.gif in Resources */,
 				151F700917928A8300631E84 /* selectionsort.gif in Resources */,
 				151F703E1792902900631E84 /* CHANGELOG.md in Resources */,
+				7F7980F81792F0270059BFD4 /* correct.jpeg in Resources */,
+				7F7980FA1792F0C20059BFD4 /* incorrect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
