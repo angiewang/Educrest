@@ -44,6 +44,12 @@
 		FD342C551792304200EAAC49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C541792304200EAAC49 /* Default.png */; };
 		FD342C5A17923AC300EAAC49 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C5917923AC300EAAC49 /* Icon-72.png */; };
 		FD342C5C17923AC600EAAC49 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C5B17923AC600EAAC49 /* Icon-72@2x.png */; };
+		FD3E82B51793110F000CB027 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82B41793110F000CB027 /* Button.png */; };
+		FD3E82B717931392000CB027 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82B617931392000CB027 /* settings.png */; };
+		FD3E82B917931541000CB027 /* temp_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82B817931541000CB027 /* temp_placeholder.png */; };
+		FD3E82BB1793170F000CB027 /* temp_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BA1793170F000CB027 /* temp_placeholder.jpg */; };
+		FD3E82BD17931884000CB027 /* educresticon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BC17931884000CB027 /* educresticon.png */; };
+		FD3E82C017931AB6000CB027 /* Button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BF17931AB6000CB027 /* Button-pressed.png */; };
 		FD7CEBC61792BF78007406D7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7CEBC51792BF78007406D7 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +151,13 @@
 		FD342C541792304200EAAC49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FD342C5917923AC300EAAC49 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		FD342C5B17923AC600EAAC49 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		FD3E82B41793110F000CB027 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = ../Button.png; sourceTree = "<group>"; };
+		FD3E82B617931392000CB027 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		FD3E82B817931541000CB027 /* temp_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp_placeholder.png; sourceTree = "<group>"; };
+		FD3E82BA1793170F000CB027 /* temp_placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp_placeholder.jpg; sourceTree = "<group>"; };
+		FD3E82BC17931884000CB027 /* educresticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = educresticon.png; sourceTree = "<group>"; };
+		FD3E82BE179319F3000CB027 /* Bubble Pop!.gfar */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bubble Pop!.gfar"; sourceTree = "<group>"; };
+		FD3E82BF17931AB6000CB027 /* Button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-pressed.png"; sourceTree = "<group>"; };
 		FD7CEBC41792BF78007406D7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		FD7CEBC51792BF78007406D7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -304,6 +317,12 @@
 		1542E3E81791CFC800C489F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD3E82BF17931AB6000CB027 /* Button-pressed.png */,
+				FD3E82BC17931884000CB027 /* educresticon.png */,
+				FD3E82BA1793170F000CB027 /* temp_placeholder.jpg */,
+				FD3E82B817931541000CB027 /* temp_placeholder.png */,
+				FD3E82B617931392000CB027 /* settings.png */,
+				FD3E82B41793110F000CB027 /* Button.png */,
 				7F7980F91792F0C20059BFD4 /* incorrect.png */,
 				7F7980F71792F0270059BFD4 /* correct.jpeg */,
 				151F700817928A8300631E84 /* selectionsort.gif */,
@@ -314,6 +333,7 @@
 				1542E40E1791DD2000C489F6 /* insertionsort.gif */,
 				1542E40C1791D5B700C489F6 /* quicksort.gif */,
 				1542E4071791CFF300C489F6 /* bubblesort.gif */,
+				FD3E82BE179319F3000CB027 /* Bubble Pop!.gfar */,
 				1542E3E91791CFC800C489F6 /* Educrest-Info.plist */,
 				1542E3EA1791CFC800C489F6 /* InfoPlist.strings */,
 				1542E3ED1791CFC800C489F6 /* main.m */,
@@ -392,6 +412,12 @@
 				151F703E1792902900631E84 /* CHANGELOG.md in Resources */,
 				7F7980F81792F0270059BFD4 /* correct.jpeg in Resources */,
 				7F7980FA1792F0C20059BFD4 /* incorrect.png in Resources */,
+				FD3E82B51793110F000CB027 /* Button.png in Resources */,
+				FD3E82B717931392000CB027 /* settings.png in Resources */,
+				FD3E82B917931541000CB027 /* temp_placeholder.png in Resources */,
+				FD3E82BB1793170F000CB027 /* temp_placeholder.jpg in Resources */,
+				FD3E82BD17931884000CB027 /* educresticon.png in Resources */,
+				FD3E82C017931AB6000CB027 /* Button-pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
