@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151F700917928A8300631E84 /* selectionsort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 151F700817928A8300631E84 /* selectionsort.gif */; };
 		1542E3E21791CFC800C489F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1542E3E11791CFC800C489F6 /* UIKit.framework */; };
 		1542E3E41791CFC800C489F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1542E3E31791CFC800C489F6 /* Foundation.framework */; };
 		1542E3E61791CFC800C489F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1542E3E51791CFC800C489F6 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151F700817928A8300631E84 /* selectionsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = selectionsort.gif; sourceTree = "<group>"; };
 		1542E3DE1791CFC800C489F6 /* Educrest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educrest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1542E3E11791CFC800C489F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1542E3E31791CFC800C489F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 		1542E3E81791CFC800C489F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				151F700817928A8300631E84 /* selectionsort.gif */,
 				7FA38ADF17928089004F109A /* heapsort.gif */,
 				FD342C541792304200EAAC49 /* Default.png */,
 				FD342C4B179216CA00EAAC49 /* educrestlogo.png */,
@@ -225,6 +228,7 @@
 				FD342C5C17923AC600EAAC49 /* Icon-72@2x.png in Resources */,
 				7FA38AD5179260B9004F109A /* Default-568h@2x.png in Resources */,
 				7FA38AE017928089004F109A /* heapsort.gif in Resources */,
+				151F700917928A8300631E84 /* selectionsort.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
