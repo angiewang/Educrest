@@ -45,7 +45,7 @@
 
     
  //   _titleLabel.text = text;
-    _subLabel.text = @"Bubble sort: the most basic of sorting algorithms. \nThis algorithm sweeps through the array,\nand swaps two elements\nif they are out of order.";
+    _subLabel.text = @"Bubble sort:\nthe most basic of sorting algorithms. \nThis algorithm sweeps through the array,\nand swaps two elements\nif they are out of order.";
     _subLabel.lineBreakMode = UILineBreakModeWordWrap;
     _subLabel.numberOfLines = 0;
     [_subLabel setFont: [UIFont fontWithName: @"Helvetica Neue Light" size: 36.0]];
