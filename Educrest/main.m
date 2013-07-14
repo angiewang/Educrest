@@ -13,6 +13,8 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+
+        sleep(2); // THIS IS A BAD IDEA!
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([ECAppDelegate class]));
     }
 }

@@ -13,9 +13,6 @@
 		1542E3EC1791CFC800C489F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3EA1791CFC800C489F6 /* InfoPlist.strings */; };
 		1542E3EE1791CFC800C489F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542E3ED1791CFC800C489F6 /* main.m */; };
 		1542E3F21791CFC800C489F6 /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542E3F11791CFC800C489F6 /* ECAppDelegate.m */; };
-		1542E3F41791CFC800C489F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3F31791CFC800C489F6 /* Default.png */; };
-		1542E3F61791CFC800C489F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3F51791CFC800C489F6 /* Default@2x.png */; };
-		1542E3F81791CFC800C489F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3F71791CFC800C489F6 /* Default-568h@2x.png */; };
 		1542E3FB1791CFC800C489F6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3F91791CFC800C489F6 /* MainStoryboard_iPhone.storyboard */; };
 		1542E3FE1791CFC900C489F6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1542E3FC1791CFC900C489F6 /* MainStoryboard_iPad.storyboard */; };
 		1542E4011791CFC900C489F6 /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1542E4001791CFC900C489F6 /* AlgorithmViewController.m */; };
@@ -24,6 +21,12 @@
 		1542E40D1791D5B700C489F6 /* quicksort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1542E40C1791D5B700C489F6 /* quicksort.gif */; };
 		1542E40F1791DD2000C489F6 /* insertionsort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1542E40E1791DD2000C489F6 /* insertionsort.gif */; };
 		1542E4111791DD3100C489F6 /* mergesort.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1542E4101791DD3100C489F6 /* mergesort.gif */; };
+		FD342C4C179216CA00EAAC49 /* educrestlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C4B179216CA00EAAC49 /* educrestlogo.png */; };
+		FD342C511792285100EAAC49 /* BubbleSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD342C501792285100EAAC49 /* BubbleSortViewController.m */; };
+		FD342C5317922F6700EAAC49 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C5217922F6700EAAC49 /* Default-Portrait@2x~ipad.png */; };
+		FD342C551792304200EAAC49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C541792304200EAAC49 /* Default.png */; };
+		FD342C5A17923AC300EAAC49 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C5917923AC300EAAC49 /* Icon-72.png */; };
+		FD342C5C17923AC600EAAC49 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD342C5B17923AC600EAAC49 /* Icon-72@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +40,6 @@
 		1542E3EF1791CFC800C489F6 /* Educrest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Educrest-Prefix.pch"; sourceTree = "<group>"; };
 		1542E3F01791CFC800C489F6 /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
 		1542E3F11791CFC800C489F6 /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
-		1542E3F31791CFC800C489F6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1542E3F51791CFC800C489F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1542E3F71791CFC800C489F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1542E3FA1791CFC800C489F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1542E3FD1791CFC900C489F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		1542E3FF1791CFC900C489F6 /* AlgorithmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmViewController.h; sourceTree = "<group>"; };
@@ -50,6 +50,13 @@
 		1542E40C1791D5B700C489F6 /* quicksort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = quicksort.gif; sourceTree = "<group>"; };
 		1542E40E1791DD2000C489F6 /* insertionsort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = insertionsort.gif; sourceTree = "<group>"; };
 		1542E4101791DD3100C489F6 /* mergesort.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mergesort.gif; sourceTree = "<group>"; };
+		FD342C4B179216CA00EAAC49 /* educrestlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = educrestlogo.png; sourceTree = "<group>"; };
+		FD342C4F1792285100EAAC49 /* BubbleSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSortViewController.h; sourceTree = "<group>"; };
+		FD342C501792285100EAAC49 /* BubbleSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSortViewController.m; sourceTree = "<group>"; };
+		FD342C5217922F6700EAAC49 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		FD342C541792304200EAAC49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FD342C5917923AC300EAAC49 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FD342C5B17923AC600EAAC49 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +76,9 @@
 		1542E3D51791CFC800C489F6 = {
 			isa = PBXGroup;
 			children = (
+				FD342C5B17923AC600EAAC49 /* Icon-72@2x.png */,
+				FD342C5917923AC300EAAC49 /* Icon-72.png */,
+				FD342C5217922F6700EAAC49 /* Default-Portrait@2x~ipad.png */,
 				1542E3E71791CFC800C489F6 /* Educrest */,
 				1542E3E01791CFC800C489F6 /* Frameworks */,
 				1542E3DF1791CFC800C489F6 /* Products */,
@@ -98,11 +108,13 @@
 			children = (
 				1542E3F01791CFC800C489F6 /* ECAppDelegate.h */,
 				1542E3F11791CFC800C489F6 /* ECAppDelegate.m */,
-				1542E3F91791CFC800C489F6 /* MainStoryboard_iPhone.storyboard */,
 				1542E4091791D52C00C489F6 /* ChooserViewController.h */,
 				1542E40A1791D52C00C489F6 /* ChooserViewController.m */,
 				1542E3FF1791CFC900C489F6 /* AlgorithmViewController.h */,
 				1542E4001791CFC900C489F6 /* AlgorithmViewController.m */,
+				1542E3F91791CFC800C489F6 /* MainStoryboard_iPhone.storyboard */,
+				FD342C4F1792285100EAAC49 /* BubbleSortViewController.h */,
+				FD342C501792285100EAAC49 /* BubbleSortViewController.m */,
 				1542E3FC1791CFC900C489F6 /* MainStoryboard_iPad.storyboard */,
 				1542E3E81791CFC800C489F6 /* Supporting Files */,
 			);
@@ -112,6 +124,8 @@
 		1542E3E81791CFC800C489F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD342C541792304200EAAC49 /* Default.png */,
+				FD342C4B179216CA00EAAC49 /* educrestlogo.png */,
 				1542E4101791DD3100C489F6 /* mergesort.gif */,
 				1542E40E1791DD2000C489F6 /* insertionsort.gif */,
 				1542E40C1791D5B700C489F6 /* quicksort.gif */,
@@ -120,9 +134,6 @@
 				1542E3EA1791CFC800C489F6 /* InfoPlist.strings */,
 				1542E3ED1791CFC800C489F6 /* main.m */,
 				1542E3EF1791CFC800C489F6 /* Educrest-Prefix.pch */,
-				1542E3F31791CFC800C489F6 /* Default.png */,
-				1542E3F51791CFC800C489F6 /* Default@2x.png */,
-				1542E3F71791CFC800C489F6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,15 +191,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1542E3EC1791CFC800C489F6 /* InfoPlist.strings in Resources */,
-				1542E3F41791CFC800C489F6 /* Default.png in Resources */,
-				1542E3F61791CFC800C489F6 /* Default@2x.png in Resources */,
-				1542E3F81791CFC800C489F6 /* Default-568h@2x.png in Resources */,
 				1542E3FB1791CFC800C489F6 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1542E3FE1791CFC900C489F6 /* MainStoryboard_iPad.storyboard in Resources */,
 				1542E4081791CFF300C489F6 /* bubblesort.gif in Resources */,
 				1542E40D1791D5B700C489F6 /* quicksort.gif in Resources */,
 				1542E40F1791DD2000C489F6 /* insertionsort.gif in Resources */,
 				1542E4111791DD3100C489F6 /* mergesort.gif in Resources */,
+				FD342C4C179216CA00EAAC49 /* educrestlogo.png in Resources */,
+				FD342C5317922F6700EAAC49 /* Default-Portrait@2x~ipad.png in Resources */,
+				FD342C551792304200EAAC49 /* Default.png in Resources */,
+				FD342C5A17923AC300EAAC49 /* Icon-72.png in Resources */,
+				FD342C5C17923AC600EAAC49 /* Icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +216,7 @@
 				1542E3F21791CFC800C489F6 /* ECAppDelegate.m in Sources */,
 				1542E4011791CFC900C489F6 /* AlgorithmViewController.m in Sources */,
 				1542E40B1791D52C00C489F6 /* ChooserViewController.m in Sources */,
+				FD342C511792285100EAAC49 /* BubbleSortViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +275,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -286,7 +300,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,6 +315,7 @@
 				GCC_PREFIX_HEADER = "Educrest/Educrest-Prefix.pch";
 				INFOPLIST_FILE = "Educrest/Educrest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -312,6 +327,7 @@
 				GCC_PREFIX_HEADER = "Educrest/Educrest-Prefix.pch";
 				INFOPLIST_FILE = "Educrest/Educrest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -335,6 +351,7 @@
 				1542E4061791CFC900C489F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

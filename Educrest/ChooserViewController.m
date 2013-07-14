@@ -28,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,6 +58,8 @@
         
         // Pass any objects to the view controller here, like...
         [vc setWhichSort:button.tag];
+        
+        
         
     }
 }
