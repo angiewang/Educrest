@@ -7,6 +7,7 @@
 //
 
 #import "BubbleSortViewController.h"
+#import "BubbleTestController.h"
 
 @interface BubbleSortViewController ()
 
@@ -52,6 +53,12 @@
     _subLabel.textColor = [UIColor blackColor];
     
     
+}
+
+- (IBAction)takeTest:(id)sender
+{
+    BubbleTestController *testController = [[BubbleTestController alloc] initWithNibName:@"BubbleTestController" bundle:nil];
+    [self.navigationController pushViewController:testController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

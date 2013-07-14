@@ -14,5 +14,6 @@
 @property (strong, nonatomic) IBOutlet UIWebView *bubblesort;
 @property (strong, nonatomic) IBOutlet UILabel *subLabel;
 
+- (IBAction)takeTest:(id)sender;
 
 @end

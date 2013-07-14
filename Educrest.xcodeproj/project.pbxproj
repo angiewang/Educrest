@@ -50,6 +50,8 @@
 		FD3E82BB1793170F000CB027 /* temp_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BA1793170F000CB027 /* temp_placeholder.jpg */; };
 		FD3E82BD17931884000CB027 /* educresticon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BC17931884000CB027 /* educresticon.png */; };
 		FD3E82C017931AB6000CB027 /* Button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BF17931AB6000CB027 /* Button-pressed.png */; };
+		FD3E82C417932A6E000CB027 /* BubbleTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E82C21793289B000CB027 /* BubbleTestController.m */; };
+		FD3E82C517932AC2000CB027 /* BubbleTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82C31793289B000CB027 /* BubbleTestController.xib */; };
 		FD7CEBC61792BF78007406D7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7CEBC51792BF78007406D7 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +160,9 @@
 		FD3E82BC17931884000CB027 /* educresticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = educresticon.png; sourceTree = "<group>"; };
 		FD3E82BE179319F3000CB027 /* Bubble Pop!.gfar */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bubble Pop!.gfar"; sourceTree = "<group>"; };
 		FD3E82BF17931AB6000CB027 /* Button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-pressed.png"; sourceTree = "<group>"; };
+		FD3E82C11793289B000CB027 /* BubbleTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleTestController.h; sourceTree = "<group>"; };
+		FD3E82C21793289B000CB027 /* BubbleTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTestController.m; sourceTree = "<group>"; };
+		FD3E82C31793289B000CB027 /* BubbleTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BubbleTestController.xib; sourceTree = "<group>"; };
 		FD7CEBC41792BF78007406D7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		FD7CEBC51792BF78007406D7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,6 +292,9 @@
 		1542E3E71791CFC800C489F6 /* Educrest */ = {
 			isa = PBXGroup;
 			children = (
+				FD3E82C11793289B000CB027 /* BubbleTestController.h */,
+				FD3E82C21793289B000CB027 /* BubbleTestController.m */,
+				FD3E82C31793289B000CB027 /* BubbleTestController.xib */,
 				7F798104179309CA0059BFD4 /* WebViewController.h */,
 				7F798105179309CA0059BFD4 /* WebViewController.m */,
 				7F7980F41792B51A0059BFD4 /* QuizViewController.h */,
@@ -418,6 +426,7 @@
 				FD3E82BB1793170F000CB027 /* temp_placeholder.jpg in Resources */,
 				FD3E82BD17931884000CB027 /* educresticon.png in Resources */,
 				FD3E82C017931AB6000CB027 /* Button-pressed.png in Resources */,
+				FD3E82C517932AC2000CB027 /* BubbleTestController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +448,7 @@
 				7F7980F61792B51A0059BFD4 /* QuizViewController.m in Sources */,
 				FD7CEBC61792BF78007406D7 /* AboutViewController.m in Sources */,
 				7F798106179309CA0059BFD4 /* WebViewController.m in Sources */,
+				FD3E82C417932A6E000CB027 /* BubbleTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
