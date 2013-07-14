@@ -45,7 +45,7 @@
 
     
  //   _titleLabel.text = text;
-    _subLabel.text = @"Heap Sort: A heap is a structure that quickly retrieves\nits smallest element. Heapsort builds a heap\nout of the data, then uses\nthat to sort the array.";
+    _subLabel.text = @"Bubble sort: the most basic of sorting algorithms. \nThis algorithm sweeps through the array,\nand swaps two elements\nif they are out of order.";
     _subLabel.lineBreakMode = UILineBreakModeWordWrap;
     _subLabel.numberOfLines = 0;
     [_subLabel setFont: [UIFont fontWithName: @"Helvetica Neue Light" size: 36.0]];

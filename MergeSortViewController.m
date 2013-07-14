@@ -48,7 +48,7 @@
     _subLabel.text = @"Merge Sort: an algorithm \n that is both simple and fast. \n It splits the array in half,\n recursively sorts each half,\n and then merges the two halves together.";
     _subLabel.lineBreakMode = UILineBreakModeWordWrap;
     _subLabel.numberOfLines = 0;
-    [_subLabel setFont: [UIFont fontWithName: @"Helvetica Neue Light" size: 36.0]];
+    [_subLabel setFont: [UIFont fontWithName:@"OpenSans-Bold" size: 36]];
     _subLabel.textColor = [UIColor blackColor];
     
     
