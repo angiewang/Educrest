@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cSi-vH-AIH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cSi-vH-AIH">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -66,7 +66,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TcF-ax-BLc" kind="push" id="w9e-Cg-84U"/>
+                                    <segue destination="1pE-Sv-Yvm" kind="push" id="o68-Wg-VzL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,12 +80,12 @@
                             <constraint firstItem="cUD-wj-GNz" firstAttribute="centerX" secondItem="L5y-Vz-PaB" secondAttribute="centerX" type="default" id="Ig7-Zw-9nE"/>
                             <constraint firstItem="cUD-wj-GNz" firstAttribute="leading" secondItem="yhY-SG-9vs" secondAttribute="leading" type="default" id="IuR-se-iQU"/>
                             <constraint firstItem="JvT-np-yRG" firstAttribute="trailing" secondItem="yhY-SG-9vs" secondAttribute="trailing" type="default" id="Qwu-16-QgH"/>
-                            <constraint firstAttribute="bottom" secondItem="a01-ee-4oo" secondAttribute="bottom" constant="33" id="SBd-50-naE"/>
                             <constraint firstItem="a01-ee-4oo" firstAttribute="leading" secondItem="JvT-np-yRG" secondAttribute="leading" type="default" id="bUU-By-N1k"/>
                             <constraint firstItem="cUD-wj-GNz" firstAttribute="top" secondItem="CEn-gb-27l" secondAttribute="top" constant="154" id="bZt-zT-JzD"/>
                             <constraint firstAttribute="bottom" secondItem="JvT-np-yRG" secondAttribute="bottom" constant="91" id="c4f-LR-GPz"/>
                             <constraint firstItem="L5y-Vz-PaB" firstAttribute="top" secondItem="CEn-gb-27l" secondAttribute="top" constant="40" id="gdo-Iq-gO2"/>
                             <constraint firstItem="L5y-Vz-PaB" firstAttribute="leading" secondItem="CEn-gb-27l" secondAttribute="leading" type="default" id="kTg-25-aPY"/>
+                            <constraint firstAttribute="bottom" secondItem="a01-ee-4oo" secondAttribute="bottom" constant="30" id="mjE-hC-6GR"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jRN-PG-zUi"/>
@@ -326,9 +326,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWH-r6-Cb6">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="mvE-PM-q1q"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Heap">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -344,7 +341,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOO-Ze-O2h">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="285" id="bAJ-ap-pPZ"/>
-                                    <constraint firstAttribute="height" constant="43" id="p0w-qm-D85"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Bubble">
@@ -369,9 +365,6 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPy-5d-sOX">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="tnq-xo-CWz"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Merge">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -385,9 +378,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mP-bX-Fs6">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="ch3-Gl-5xD"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Quick">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -419,7 +409,8 @@
                             <constraint firstItem="KOO-Ze-O2h" firstAttribute="leading" secondItem="MhQ-bJ-owk" secondAttribute="leading" type="default" id="1Dj-vf-SEi"/>
                             <constraint firstAttribute="bottom" secondItem="7mP-bX-Fs6" secondAttribute="bottom" constant="138" id="22Q-bh-z8l"/>
                             <constraint firstItem="7mP-bX-Fs6" firstAttribute="leading" secondItem="kWH-r6-Cb6" secondAttribute="leading" type="default" id="2pD-m2-o7M"/>
-                            <constraint firstItem="DPy-5d-sOX" firstAttribute="top" secondItem="MhQ-bJ-owk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ADX-QH-wJn"/>
+                            <constraint firstItem="DPy-5d-sOX" firstAttribute="centerX" secondItem="TwL-Rh-uCE" secondAttribute="centerX" type="default" id="6GO-JF-srv"/>
+                            <constraint firstItem="DPy-5d-sOX" firstAttribute="top" secondItem="TwL-Rh-uCE" secondAttribute="top" constant="179" id="EV6-pw-fOd"/>
                             <constraint firstAttribute="bottom" secondItem="Fqo-zk-Auk" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="EZ2-uL-M0O"/>
                             <constraint firstItem="P5J-Ig-DRl" firstAttribute="top" secondItem="TwL-Rh-uCE" secondAttribute="top" constant="13" id="G3S-9m-WHf"/>
                             <constraint firstItem="KOO-Ze-O2h" firstAttribute="trailing" secondItem="MhQ-bJ-owk" secondAttribute="trailing" type="default" id="Jn8-vt-aCq"/>
@@ -434,7 +425,6 @@
                             <constraint firstItem="MhQ-bJ-owk" firstAttribute="top" secondItem="TwL-Rh-uCE" secondAttribute="top" constant="123" id="nVL-4K-eiD"/>
                             <constraint firstItem="KOO-Ze-O2h" firstAttribute="top" secondItem="P5J-Ig-DRl" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qcP-3I-ubW"/>
                             <constraint firstItem="kWH-r6-Cb6" firstAttribute="trailing" secondItem="Fqo-zk-Auk" secondAttribute="trailing" type="default" id="sPJ-9w-kXT"/>
-                            <constraint firstItem="P5J-Ig-DRl" firstAttribute="centerX" secondItem="TwL-Rh-uCE" secondAttribute="centerX" type="default" id="yNs-DX-UMV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l18-kf-6gN"/>
@@ -453,18 +443,39 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Try Again!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZK-tD-Ak7">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="4Iv-3Y-AXe"/>
                                     <constraint firstAttribute="height" constant="45" id="ngP-8O-3Vx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Aww" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1am-wC-tWR">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="L6S-cq-NbB"/>
+                                    <constraint firstAttribute="height" constant="50" id="rwp-ze-4LG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5W-pt-uT4">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="incorrect.png" translatesAutoresizingMaskIntoConstraints="NO" id="9OP-iD-j2F"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZZK-tD-Ak7" firstAttribute="top" secondItem="CSv-Kz-TDR" secondAttribute="top" constant="156" id="URL-Mm-XEP"/>
-                            <constraint firstItem="ZZK-tD-Ak7" firstAttribute="centerX" secondItem="CSv-Kz-TDR" secondAttribute="centerX" type="default" id="aAB-Vs-adW"/>
+                            <constraint firstItem="s5W-pt-uT4" firstAttribute="leading" secondItem="CSv-Kz-TDR" secondAttribute="leading" constant="145" id="0eZ-bk-CbF"/>
+                            <constraint firstItem="1am-wC-tWR" firstAttribute="centerX" secondItem="CSv-Kz-TDR" secondAttribute="centerX" type="default" id="Ctt-fU-QP1"/>
+                            <constraint firstAttribute="bottom" secondItem="ZZK-tD-Ak7" secondAttribute="bottom" constant="64" id="cao-1i-Lgf"/>
+                            <constraint firstItem="9OP-iD-j2F" firstAttribute="top" secondItem="CSv-Kz-TDR" secondAttribute="top" constant="25" id="pd9-B8-Bid"/>
+                            <constraint firstAttribute="bottom" secondItem="s5W-pt-uT4" secondAttribute="bottom" constant="149" id="pqg-zk-Zq0"/>
+                            <constraint firstItem="9OP-iD-j2F" firstAttribute="leading" secondItem="CSv-Kz-TDR" secondAttribute="leading" constant="58" id="qRq-uJ-2h6"/>
+                            <constraint firstItem="ZZK-tD-Ak7" firstAttribute="top" secondItem="1am-wC-tWR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="sKN-Ch-bfl"/>
+                            <constraint firstItem="1am-wC-tWR" firstAttribute="trailing" secondItem="ZZK-tD-Ak7" secondAttribute="trailing" type="default" id="urV-fa-Otz"/>
+                            <constraint firstItem="1am-wC-tWR" firstAttribute="leading" secondItem="ZZK-tD-Ak7" secondAttribute="leading" type="default" id="v73-oL-OVJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nbF-PD-aQU"/>
@@ -585,11 +596,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="correct.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="67v-Xs-h4X"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Qo7-pt-XKl" firstAttribute="top" secondItem="RrI-dY-XBD" secondAttribute="top" constant="141" id="0mZ-lX-Xm0"/>
                             <constraint firstItem="Qo7-pt-XKl" firstAttribute="centerX" secondItem="RrI-dY-XBD" secondAttribute="centerX" type="default" id="0wm-Lb-NtW"/>
+                            <constraint firstItem="67v-Xs-h4X" firstAttribute="top" secondItem="RrI-dY-XBD" secondAttribute="top" constant="42" id="EJB-Sw-rg6"/>
+                            <constraint firstItem="67v-Xs-h4X" firstAttribute="leading" secondItem="RrI-dY-XBD" secondAttribute="leading" constant="39" id="Ogc-6R-Ltg"/>
+                            <constraint firstAttribute="bottom" secondItem="Qo7-pt-XKl" secondAttribute="bottom" constant="38" id="Rca-kL-UPg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LcK-us-fke"/>
@@ -712,31 +726,34 @@
             </objects>
             <point key="canvasLocation" x="231" y="-879"/>
         </scene>
-        <!--View Controller - About Educrest-->
-        <scene sceneID="4mW-dU-uHC">
+        <!--Web View Controller-->
+        <scene sceneID="0zv-6P-Vdw">
             <objects>
-                <viewController title="About Educrest" id="TcF-ax-BLc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hvC-QB-QdC">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ss1-So-xoF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="1pE-Sv-Yvm" customClass="WebViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ue9-Lv-jHh">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tcu-jh-Zju">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0w-gu-SlS">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tcu-jh-Zju" firstAttribute="bottom" secondItem="hvC-QB-QdC" secondAttribute="bottom" type="default" id="5RQ-ZF-9fw"/>
-                            <constraint firstItem="tcu-jh-Zju" firstAttribute="top" secondItem="hvC-QB-QdC" secondAttribute="top" type="default" id="NvQ-0c-Rnj"/>
-                            <constraint firstItem="tcu-jh-Zju" firstAttribute="trailing" secondItem="hvC-QB-QdC" secondAttribute="trailing" type="default" id="fPf-5B-AhR"/>
-                            <constraint firstItem="tcu-jh-Zju" firstAttribute="leading" secondItem="hvC-QB-QdC" secondAttribute="leading" type="default" id="z8b-8s-ggL"/>
+                            <constraint firstItem="c0w-gu-SlS" firstAttribute="top" secondItem="ue9-Lv-jHh" secondAttribute="top" type="default" id="47H-1K-kad"/>
+                            <constraint firstItem="c0w-gu-SlS" firstAttribute="bottom" secondItem="ue9-Lv-jHh" secondAttribute="bottom" type="default" id="bNh-Zc-QjL"/>
+                            <constraint firstItem="c0w-gu-SlS" firstAttribute="trailing" secondItem="ue9-Lv-jHh" secondAttribute="trailing" type="default" id="d3x-oe-wLM"/>
+                            <constraint firstItem="c0w-gu-SlS" firstAttribute="leading" secondItem="ue9-Lv-jHh" secondAttribute="leading" type="default" id="p8v-0L-kGG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cmd-j2-jQ8"/>
+                    <navigationItem key="navigationItem" id="psx-F4-Vin"/>
+                    <connections>
+                        <outlet property="myWebView" destination="c0w-gu-SlS" id="65R-nJ-Cab"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IPd-as-lAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1357" y="523"/>
+            <point key="canvasLocation" x="-1259" y="515"/>
         </scene>
         <!--View Controller - Select Loop-->
         <scene sceneID="a5z-vI-deK">
@@ -1190,7 +1207,9 @@ Once the condition tells the loop to continue, part two runs. Anything put in pa
         </scene>
     </scenes>
     <resources>
+        <image name="correct.jpeg" width="246" height="205"/>
         <image name="educrestlogo.png" width="650" height="200"/>
+        <image name="incorrect.png" width="200" height="200"/>
     </resources>
     <classes>
         <class className="AlgorithmViewController" superclassName="UIViewController">
@@ -1211,6 +1230,9 @@ Once the condition tells the loop to continue, part two runs. Anything put in pa
         </class>
         <class className="ChooserViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ChooserViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPressed:"/>
+            </relationships>
         </class>
         <class className="HeapSortViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HeapSortViewController.h"/>
@@ -1244,6 +1266,14 @@ Once the condition tells the loop to continue, part two runs. Anything put in pa
             <relationships>
                 <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="quicksort" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="subLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WebViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mergesort" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="myWebView" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="subLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
