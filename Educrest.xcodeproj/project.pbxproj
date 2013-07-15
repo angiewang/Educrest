@@ -52,6 +52,7 @@
 		FD3E82C017931AB6000CB027 /* Button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82BF17931AB6000CB027 /* Button-pressed.png */; };
 		FD3E82C417932A6E000CB027 /* BubbleTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E82C21793289B000CB027 /* BubbleTestController.m */; };
 		FD3E82C517932AC2000CB027 /* BubbleTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3E82C31793289B000CB027 /* BubbleTestController.xib */; };
+		FD3E82C81793BD7F000CB027 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3E82C71793BD7E000CB027 /* SettingsViewController.m */; };
 		FD7CEBC61792BF78007406D7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7CEBC51792BF78007406D7 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +164,8 @@
 		FD3E82C11793289B000CB027 /* BubbleTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleTestController.h; sourceTree = "<group>"; };
 		FD3E82C21793289B000CB027 /* BubbleTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTestController.m; sourceTree = "<group>"; };
 		FD3E82C31793289B000CB027 /* BubbleTestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BubbleTestController.xib; sourceTree = "<group>"; };
+		FD3E82C61793BD7E000CB027 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FD3E82C71793BD7E000CB027 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		FD7CEBC41792BF78007406D7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		FD7CEBC51792BF78007406D7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -310,6 +313,8 @@
 				1542E3FF1791CFC900C489F6 /* AlgorithmViewController.h */,
 				1542E4001791CFC900C489F6 /* AlgorithmViewController.m */,
 				1542E3F91791CFC800C489F6 /* MainStoryboard_iPhone.storyboard */,
+				FD3E82C61793BD7E000CB027 /* SettingsViewController.h */,
+				FD3E82C71793BD7E000CB027 /* SettingsViewController.m */,
 				FD7CEBC41792BF78007406D7 /* AboutViewController.h */,
 				FD7CEBC51792BF78007406D7 /* AboutViewController.m */,
 				7FA38ADC17927F7C004F109A /* HeapSortViewController.h */,
@@ -449,6 +454,7 @@
 				FD7CEBC61792BF78007406D7 /* AboutViewController.m in Sources */,
 				7F798106179309CA0059BFD4 /* WebViewController.m in Sources */,
 				FD3E82C417932A6E000CB027 /* BubbleTestController.m in Sources */,
+				FD3E82C81793BD7F000CB027 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
